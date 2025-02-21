@@ -21,26 +21,104 @@ if app_mode == "Home":
     image_path = "home_page.jpeg"
     st.image(image_path, use_column_width=True)
     st.markdown("""
-    ## 🌿 Welcome to My Plant Disease Recognition System! 🔍
-    
-    Hi there! 👋 I'm here to help you identify plant diseases quickly and accurately. Just upload an image of your plant, and my system will analyze it to detect any signs of disease. Let's work together to protect your crops and ensure a healthier harvest! 🌱💚
+    # 🌿 Welcome to My Plant Disease Recognition System! 🔍  
+   
+    Hi there! 👋 I'm here to help you identify plant diseases quickly and accurately. Just upload an image of your plant, and my system will analyze it to detect any signs of disease. Let’s work together to protect your crops and ensure a healthier harvest! 🌱💚  
 
-    ### How It Works
-    1. **Upload Image:** Go to the **Disease Recognition** page and upload a clear image of the affected plant.
-    2. **Analysis:** My AI-powered system will scan the image and detect potential diseases.
-    3. **Results:** Instantly receive a diagnosis along with expert recommendations for treatment.
+    ## 🌟 How It Works  
+    🔹 **Upload Image**: Navigate to the **Disease Recognition** page and upload a clear image of the affected plant.  
+    🔹 **AI Analysis**: My AI-powered system scans the image and detects potential diseases.  
+    🔹 **Instant Results**: Receive a diagnosis along with expert recommendations for treatment.  
 
-    ### Why Choose This System?
-    - **Highly Accurate:** Uses advanced machine learning for precise disease detection.
-    - **User-Friendly:** A simple and intuitive interface—just upload an image and get results!
-    - **Fast & Efficient:** Receive instant insights so you can take action without delay.
+    ## 💡 Why Choose This System?  
+    ✅ **Highly Accurate** – Uses advanced machine learning for precise disease detection.  
+    ✅ **User-Friendly** – A simple and intuitive interface—just upload an image and get results!  
+    ✅ **Fast & Efficient** – Receive instant insights so you can take action without delay.  
 
-    ### Get Started
-    Click on the **Disease Recognition** page in the sidebar to upload an image and start detecting plant diseases effortlessly!
+    ## 🌍 Supported Plant Diseases  
+    This system can detect a wide range of plant diseases across various crops, including:  
 
-    ### About Me
-    Learn more about this project and my mission to help farmers and gardeners on the **About** page.
-    """)
+    **🌱 Cassava:**  
+    - Bacterial Blight  
+    - Brown Streak Disease  
+    - Green Mottle  
+    - Mosaic Disease  
+    - **Healthy** ✅  
+
+    **🌶️ Chili:**  
+    - Leaf Curl  
+    - Leaf Spot  
+    - Whitefly  
+    - Yellowish  
+    - **Healthy** ✅  
+
+    **🌽 Corn:**  
+    - Common Rust  
+    - Gray Leaf Spot  
+    - Northern Leaf Blight  
+    - **Healthy** ✅  
+
+    **🥒 Cucumber:**  
+    - Diseased  
+    - **Healthy** ✅  
+
+    **🍐 Guava:**  
+    - Diseased  
+    - **Healthy** ✅  
+
+    **🍇 Grapes:**  
+    - Black Measles  
+    - Black Rot  
+    - Leaf Blight (Isariopsis Leaf Spot)  
+    - **Healthy** ✅  
+
+    **🍈 Jamun:**  
+    - Diseased  
+    - **Healthy** ✅  
+
+    **🍋 Lemon:**  
+    - Diseased  
+    - **Healthy** ✅  
+
+    **🥭 Mango:**  
+    - Diseased  
+    - **Healthy** ✅  
+
+    **🫑 Pepper Bell:**  
+    - Bacterial Spot  
+    - **Healthy** ✅  
+
+    **🥔 Potato:**  
+    - Early Blight  
+    - Late Blight  
+    - **Healthy** ✅  
+
+    **🌾 Rice:**  
+    - Brown Spot  
+    - Hispa  
+    - Leaf Blast  
+    - Neck Blast  
+    - **Healthy** ✅  
+
+    **🍅 Tomato:**  
+    - Bacterial Spot  
+    - Early Blight  
+    - Late Blight  
+    - Leaf Mold  
+    - Mosaic Virus  
+    - Septoria Leaf Spot  
+    - Spider Mites (Two-Spotted Spider Mite)  
+    - Target Spot  
+    - Yellow Leaf Curl Virus  
+    - **Healthy** ✅  
+
+    ## 🚀 Get Started  
+    Click on the **Disease Recognition** page in the sidebar to upload an image and start detecting plant diseases effortlessly!  
+
+    ## 📌 About Me  
+    Learn more about this project and my mission to help farmers and gardeners on the **About** page.  
+""")
+
 
 # About Page
 elif app_mode == "About":
